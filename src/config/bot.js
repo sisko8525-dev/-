@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
+        name: "Arsenal Bot", // required by Discord API, not shown in the client
         state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        type: 5,               // Custom
       },
     ],
   },
@@ -91,9 +91,9 @@ export const botConfig = {
   // =========================
   // IMPORTANT: This is the SINGLE SOURCE OF TRUTH for all bot colors
   embeds: {
-    colors: {
+    colors: {#800517
       // Main brand colors.
-      primary: "#336699",
+      primary: "#800517",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
@@ -116,7 +116,7 @@ export const botConfig = {
       black: "#000000",
 
       // Feature-specific colors.
-      giveaway: {
+      giveaway: { جيف
         active: "#57F287",
         ended: "#ED4245",
       },
