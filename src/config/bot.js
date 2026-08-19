@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Arsenal Bot", // required by Discord API, not shown in the client
         state: "stalking",     // this is what people actually see
-        type: 5,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
