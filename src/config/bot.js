@@ -91,7 +91,7 @@ export const botConfig = {
   // =========================
   // IMPORTANT: This is the SINGLE SOURCE OF TRUTH for all bot colors
   embeds: {
-    colors: {#800517
+    colors: {#
       // Main brand colors.
       primary: "#800517",
       secondary: "#2F3136",
@@ -116,9 +116,9 @@ export const botConfig = {
       black: "#000000",
 
       // Feature-specific colors.
-      giveaway: { جيف
+      giveaway: {
         active: "#57F287",
-        ended: "#ED4245",
+        ended: "",
       },
       ticket: {
         open: "#57F287",
